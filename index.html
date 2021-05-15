@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META TAGS -->
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS LINKS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>GitHub</title>
+ </head>
+
+<body>
+      <nav>
+          <div class="navbar">
+                <a href="#" class="navbar-brand">
+                <img src ="Github_logo.png" width="50px"/> &ensp;&ensp;&ensp;&ensp;&ensp;
+                </a>
+
+                <div class="navbar-collapse">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                                <a href="#"> Features </a>
+                          </li>
+                          <li class="nav-item">
+                                <a href="#"> Business</a>
+                          </li>
+                          <li class="nav-item">
+                                <a href="#"> Explore </a>
+                          </li>
+                          <li class="nav-item">
+                                <a href="#">  Marketplace </a>
+                          </li>
+                          <li class="nav-item">
+                                <a href="#"> Pricing </a>
+                          </li>
+
+                          <div class="Search-bar">
+                              <input type="text" placeholder="Search GitHub" class="search"/>
+                          </div>
+
+
+                                <div class="btn">
+                                      <a href="#" id="btn-1"> Sign in </a>
+                                </div>
+                                <span id="or"> or   </span>
+                                <div class="btn">
+                                      <a href="#" id="btn-1"> Sign up </a>
+                                </div>
+                          </div>
+
+                      </ul>
+
+                <button class="toggle-collapse">
+                      <a href="#">
+                         <img src="nav_icon.png" />
+                      </a>
+                </button>
+                  </div>
+          </div>
+      </nav>
+
+      <div class="container">
+
+            <div class="info-block" >
+                  <h1 id="text-h1"> Built  for  developers</h1>
+                  <p id="info-text">
+                      GitHub is a development platform inspired by the way you work
+                      .From <span id="open-source">open source</span> to <span id="business">business</span> ,
+                      you can host and review code, manage  projects and build software alongside millions of other developers.
+                  </p>
+
+              </div>
+
+          <div class="form">
+              <div class="form-box">
+                  <div class="form-items">
+                      <div class="form-username">
+                          <span><br></span>
+                          <label for="username" id="label_username"> Username </label><br>
+                          <input type="text" id="username" placeholder="Pick a username"/>
+                  </div>
+                  <div class="form-email">
+                          <span><br></span>
+                          <label for="email"id="label_email"> Email<br> </label>
+                          <input type="email" id="email" placeholder="you@emaple.com"/>
+
+                  </div>
+                  <div class="form-password">
+                          <span><br></span>
+                          <label for="password"id="label_password"> Password </label>
+                          <input type="password" id="password" placeholder="Create a password"/>
+                  </div>
+                  <p id="password-info">Use a strong password consisting of alpabets, numbers and special characters<br></p>
+                  <button type="button" class="sign-up">
+                          <a href="#"id="a_sign-up" >Sign up for GitHub</a>
+                  </button>
+                  <p id="terms-conditions">
+
+                          By clicking "Sign up for GitHub" , you agree to our <span id="terms"> terms of service </span>
+                          and <span class="privacy-policy"> privacy policy </span> .We'll immediately send you account related emails.
+                  </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="signup_m_block">
+                <button type="button" class="sign-up_m">
+                    <a href="#"id="a_sign-up_m">Sign up for GitHub</a>
+                </button>
+          </div>
+      </div>
+
+      <section class="section-2">
+          <div class="container-2">
+              <br>
+              <p>GitHub for teams</p>
+              <h1>A better way to work together</h1>
+              <p>GitHub brings teams together to work through problems,move ideas forward <br>and learn from each other along the way</p>
+              <button class="sign-up_2">
+                  <a href ="#" class="a_sign-up_2"> Sign Up your team </a>
+              </button>
+            </div>
+      </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    .<script>
+          $(document).ready(function(){
+              $('.toggle-collapse').click(function(){
+                    $('.navbar-collapse').toggleClass("collapse");
+
+              })
+          });
+    </script>
+
+</body>
